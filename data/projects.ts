@@ -1,0 +1,8 @@
+export type Project={title:string;slug:string;category:string;year?:string;description:string;longDescription?:string;methods:string[];tags:string[];sample:boolean;image?:string;pdf?:string;url?:string;detailsUrl?:string};
+// These four entries are sample topics, not completed projects or verified achievements.
+export const projects:Project[]=[
+ {title:"Youth Perspectives on Higher Education",slug:"youth-higher-education",category:"Academic research",description:"An exploratory topic examining how young people perceive higher education, career opportunities, and their future aspirations.",methods:["Survey design","Interviews","Literature review","Data interpretation"],tags:["Youth","Education"],sample:true},
+ {title:"Gender Roles in Contemporary Society",slug:"gender-roles",category:"Course research",description:"A proposed inquiry into changing perceptions of gender roles across family, education, and professional life.",methods:["Qualitative research","Interviewing","Academic writing"],tags:["Gender","Society"],sample:true},
+ {title:"Community & Social Change",slug:"community-change",category:"Fieldwork",description:"A sample fieldwork topic exploring community relationships, changing social structures, and local perspectives on development.",methods:["Field observation","Community engagement","Note taking","Analysis"],tags:["Community","Development"],sample:true},
+ {title:"Education and Social Inequality",slug:"education-inequality",category:"Academic paper",description:"A sample paper topic exploring how socioeconomic differences influence educational opportunities and social mobility.",methods:["Literature review","Sociological analysis","Academic writing"],tags:["Education","Inequality"],sample:true}
+];

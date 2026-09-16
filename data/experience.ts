@@ -1,0 +1,2 @@
+export type Experience={title:string;organization:string;year:string;location:string;description:string;published:boolean};
+export const experience:Experience[]=["Volunteer / Community Engagement","University Activity","Fieldwork Experience","Workshop / Seminar"].map(title=>({title,organization:"Add later",year:"Add later",location:"Dhaka, Bangladesh",description:"Add verified responsibilities and activities here.",published:false}));
