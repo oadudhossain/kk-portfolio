@@ -15,7 +15,7 @@ pnpm build:next
 pnpm start:next
 ```
 
-The App Router application lives in `app/`. The hosted Sites version uses the included Vinext compatibility build for Cloudflare Workers. This export changes `dev`, `build`, and `start` to standard Next.js commands. The hosted source keeps its own build configuration.
+The App Router application lives in `app/`.
 
 ## Content editing
 
