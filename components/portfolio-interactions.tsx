@@ -334,7 +334,7 @@ export function Copyright() {
   return (
     <span>
       {/* © {new Date().getFullYear()} {profile.name}. All rights reserved. */}©{" "}
-      {new Date().getFullYear()} All rights reserved to DIPU, who loves KABITA.
+      {new Date().getFullYear()} All rights reserved to DIPU.
     </span>
   );
 }
